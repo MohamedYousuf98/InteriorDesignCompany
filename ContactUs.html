@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Designer Landing Page</title>
+    <script src="./main.js" defer></script>
+      <!-- Swiper JS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="all.min.css">
+   
+ 
+</head>
+<body>
+
+<section class="Navbar fixed-top">
+    <header class="row container ">
+        <a href="/index.html" class="logo">LOGO</a>
+        <button class="toggleMenu" onclick="toggleMenu();"></button>
+        <nav class="navigation row">
+        <a href="/index.html">Home</a>
+        <a href="/AboutUs.html">About</a>
+        <a href="/ContactUs.html">Contact</a>
+        </nav>
+    </header>
+</section>
+
+<section class="join container">
+    <div class="heading">
+        <h6 class="contact-title">Become a Part of Our Journey</h6>
+        <p class="contact-subtitle">We’re excited to hear from you! Fill out the form below to 
+            get in touch and explore opportunities to collaborate with us.</p>
+    </div>
+    <div class="grid-container">
+     
+        <div class="contact-details">
+            <div class="contactus-content">
+                <div class="contact-item">
+                    <div class="contact-icons">
+                        <img src="assets/assets/message.svg" data-aos="fade-up" data-aos-duration="1000" alt="Image" width="100" height="100">
+                    </div>
+                    <div class="contact-info">
+                        <h3 data-aos="fade-up" data-aos-duration="1000">Email</h3>
+                        <p data-aos="fade-up" data-aos-duration="1000">Contact@InteriorDesign.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icons">
+                        <img src="assets/assets/mobile-icon.svg" data-aos="fade-up" data-aos-duration="1000" alt="Image">
+                    </div>
+                    <div class="contact-info">
+                        <h3 data-aos="fade-up" data-aos-duration="1000">Phone</h3>
+                        <p data-aos="fade-up" data-aos-duration="1000">16379</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icons">
+                        <img src="assets/assets/loca.svg" data-aos="fade-up" data-aos-duration="1000" alt="Image">
+                    </div>
+                    <div class="contact-info">
+                        <h3 data-aos="fade-up" data-aos-duration="1000">Address</h3>
+                        <p data-aos="fade-up" data-aos-duration="1000">55 East Brichwood Ave.<br>  Brooklyn, NewYork</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+        <form id="contactForm" class="column">
+            <input type="text" name="name" id="name" placeholder="Write Your Name">
+            <div id="nameError" class="error"></div>
+            <input type="text" name="phone" id="phone" placeholder="Write Your Phone Number">
+            <div id="phoneError" class="error"></div>
+            <input type="email" name="email" id="email" placeholder="example@mail.com">
+            <div id="emailError" class="error"></div>
+            <button type="submit" class="page-btn-contact row">
+                Contact With Us
+            </button>
+                    
+                </form>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="container">
+    <div class="footer row">
+        <div class="footer-content">
+            <a href="/index.html" class="logo">LOGO</a>
+            <p>It is a long established fact that a reader will be distracted</p>
+            <p>55 East Brichwood Ave. Brooklyn, NewYork 11201</p>
+        </div>
+        <div>
+            <h3>Pages</h3>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/AboutUs.html">About Us</a></li>
+                <li><a href="/ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Consultation Design</a></li>
+                <li><a href="#">Space Optimization</a></li>
+                <li><a href="#">Project Coordination</a></li>
+                <li><a href="#">Furniture Selection</a></li>
+                <li><a href="#">Lighting Design</a></li>
+                <li><a href="#">Custom Solutions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+            <div class="social-links row">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px"><path d="M11.666,2.005C6.62,2.17,2.374,6.251,2.025,11.288c-0.369,5.329,3.442,9.832,8.481,10.589V14.65H8.892c-0.726,0-1.314-0.588-1.314-1.314v0c0-0.726,0.588-1.314,1.314-1.314h1.613v-1.749c0-2.896,1.411-4.167,3.818-4.167c0.357,0,0.662,0.008,0.921,0.021c0.636,0.031,1.129,0.561,1.129,1.198v0c0,0.663-0.537,1.2-1.2,1.2h-0.442c-1.022,0-1.379,0.969-1.379,2.061v1.437h1.87c0.591,0,1.043,0.527,0.953,1.111l-0.108,0.701c-0.073,0.47-0.477,0.817-0.953,0.817h-1.762v7.247C18.235,21.236,22,17.062,22,12C22,6.366,17.341,1.821,11.666,2.005z"/></svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="30px" height="25px"><path d="M 11.46875 5 C 7.917969 5 5 7.914063 5 11.46875 L 5 20.53125 C 5 24.082031 7.914063 27 11.46875 27 L 20.53125 27 C 24.082031 27 27 24.085938 27 20.53125 L 27 11.46875 C 27 7.917969 24.085938 5 20.53125 5 Z M 11.46875 7 L 20.53125 7 C 23.003906 7 25 8.996094 25 11.46875 L 25 20.53125 C 25 23.003906 23.003906 25 20.53125 25 L 11.46875 25 C 8.996094 25 7 23.003906 7 20.53125 L 7 11.46875 C 7 8.996094 8.996094 7 11.46875 7 Z M 21.90625 9.1875 C 21.402344 9.1875 21 9.589844 21 10.09375 C 21 10.597656 21.402344 11 21.90625 11 C 22.410156 11 22.8125 10.597656 22.8125 10.09375 C 22.8125 9.589844 22.410156 9.1875 21.90625 9.1875 Z M 16 10 C 12.699219 10 10 12.699219 10 16 C 10 19.300781 12.699219 22 16 22 C 19.300781 22 22 19.300781 22 16 C 22 12.699219 19.300781 10 16 10 Z M 16 12 C 18.222656 12 20 13.777344 20 16 C 20 18.222656 18.222656 20 16 20 C 13.777344 20 12 18.222656 12 16 C 12 13.777344 13.777344 12 16 12 Z"/></svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="24px" height="24px"><path d="M24 4H6C4.895 4 4 4.895 4 6v18c0 1.105 0 2 0 2h18c1.105 0 2-.895 2-2V6c0-1.105-.895-2-2-2zm-13.046 18h-2.95V12.508h2.95V22zm-1.505-10.849c-.951 0-1.72-.771-1.72-1.72s.77-1.719 1.72-1.719c.948 0 1.719.771 1.719 1.719 0 .949-.771 1.72-1.719 1.72zM22.004 22h-2.948v-4.616c0-1.101-.02-2.517-1.533-2.517-1.535 0-1.771 1.199-1.771 2.437V22h-2.948v-9.492h2.83v1.297h.04c.394-.746 1.356-1.533 2.791-1.533 2.987 0 3.539 1.966 3.539 4.522V22z"/></svg>
+                </a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="24px" height="24px"><path d="M5.92 6l14.66 21.375L6.23 44h3.18l12.576-14.578L31.986 44h12.014L28.682 21.67 42.199 6h-3.17L27.275 19.617 17.934 6H5.92zM9.717 8h7.164l23.322 34h-7.164L9.717 8z"/></svg>
+                </a>
+            </div>
+            <ul>
+                <li><a href="mailto:contact@example.com">contact@example.com</a></li>
+                <li><a href="tel:+01011112220">+010 1111 2220</a></li>
+            </ul>
+        </div>
+    </div>
+    <p class="copy-right">Copyright &copy; 2024.</p>
+</footer>
+
+
+
+<script src="all.min.js"></script>
+</body>
+</html>
+
