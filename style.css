@@ -128,6 +128,7 @@ nav a:hover {
   -ms-border-radius: 0 0 0 25%;
   -o-border-radius: 0 0 0 25%;
 }
+
 .hero .container {
   height: 650px;
   align-items: center;
@@ -301,6 +302,14 @@ h2 {
   -moz-border-radius: 0 50% 0 25%;
   -ms-border-radius: 0 50% 0 25%;
   -o-border-radius: 0 50% 0 25%;
+}
+@media (max-width: 768px) {
+  .contact-img img {
+    height: auto;
+  }
+  .contact-content h2 {
+    margin-top: 30px;
+  }
 }
 
 /*Testimonial*/
@@ -670,7 +679,7 @@ footer a:hover {
     display: flex;
     cursor: pointer;
     background-color: transparent;
-    background-image: url(./assets/assets/icons/mobilemenu.svg);
+    background-image: url(./assets/mobile-menu.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px;
@@ -687,7 +696,7 @@ footer a:hover {
   .toggleMenu.active {
     position: fixed;
     right: 5%;
-    background-image: url(./assets/assets/icons/close.svg);
+    background-image: url(./assets/close-btn.png);
     background-size: 25px;
   }
   nav {
@@ -868,6 +877,15 @@ footer a:hover {
   .mission-vission-section {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+  .mission-vission-text {
+    margin-top: 0px;
+  }
+  .mission-vission-section {
+    padding-top: 0px;
+  }
+  .whyus {
+    margin-bottom: 50px;
   }
 }
 
