@@ -294,6 +294,7 @@ h2 {
 }
 .contact-img img {
   width: 100%;
+  height: 600px;
   object-fit: cover;
   border-radius: 0 50% 0 25%;
   -webkit-border-radius: 0 50% 0 25%;
@@ -325,6 +326,8 @@ h2 {
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .profile {
@@ -353,8 +356,9 @@ h2 {
   background-color: var(--cl--1--);
 }
 .swiper-pagination-bullet-active {
-  background-color: var(--cl--5--);
+  background: var(--cl--5--) !important;
 }
+
 .profile + p {
   margin-top: 1.5rem;
   text-align: center;
@@ -423,6 +427,8 @@ h2 {
 .numbers {
   background-color: var(--cl--4--);
   padding: 4rem 0;
+  margin-bottom: 55px;
+  margin-top: 20px;
 }
 .numbers .container {
   flex-wrap: wrap;
@@ -961,9 +967,8 @@ h3 {
   transition: transform 0.5s ease-in-out;
 }
 .slides img {
-  width: 50%;
-  height: auto;
-  display: none;
+  width: 60%;
+  object-fit: cover;
   margin: auto;
 }
 
